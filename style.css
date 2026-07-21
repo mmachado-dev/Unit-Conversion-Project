@@ -1,0 +1,107 @@
+body {
+    background-color: #1c1c1c;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20pt;
+    color: #5a537b;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: medium;
+    color: #353535;
+}
+
+button {
+    background-color: white;
+    color: #3d3d3d;
+    border: 0;
+    border-radius: 5px;
+    width: 117px;
+    height: 42px;
+    font-size: medium;
+}
+
+input {
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    margin: 0;
+    border: 2px solid #b295ff;
+    border-radius: 5px;
+    font-size: 58pt;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.results-div {
+    width: 500px;
+    height: 108.57px;
+    max-width: 500px;
+    height: 108.57px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 36px;
+    margin-right: auto;
+    margin-bottom: 23px;
+    margin-left: auto;
+}
+
+#container-div {
+    width: 550px;
+    height: 729px;
+    max-width: 550px;
+    max-height: 729px;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#input-div {
+    width: 550px;
+    max-width: 550px;
+    height: 285px;
+    max-height: 285px;
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#results-container-div {
+    width: 550px;
+    height: 464px;
+    max-width: 550px;
+    max-height: 464px;
+    background-color: #F4F4F4;
+    margin: 0;
+}
