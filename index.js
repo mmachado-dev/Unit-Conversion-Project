@@ -2,6 +2,10 @@ const convertBtn = document.getElementById("convert-btn")
 const lengthP = document.getElementById("length-p")
 const volumeP = document.getElementById("volume-p")
 const massP = document.getElementById("mass-p")
+const modal = document.getElementById("modal")
+const modalChoiceBtns = document.getElementById("modal-choice-btns")
+const modalBtn = document.getElementById("modal-btn")
+const declineBtn = document.getElementById("decline-btn")
 
 convertBtn.addEventListener("click",calculations)
 
@@ -23,3 +27,19 @@ function calculations() {
     massP.textContent = `${numberValue} kilos = ${massPound} | ${numberValue} pounds = ${massKilogram}`
 
 }
+
+function impossible() {
+    modalChoiceBtns.classList.toggle("modal-choice-btns-reverse")
+}
+
+function showModal() {
+    modal.style.display = "flex"
+}
+
+function hideModal() {
+    modal.style.display = "none"
+}
+
+declineBtn.addEventListener("mouseenter",impossible)
+setTimeout(showModal,3000)
+setTimeout(hideModal,13000)
